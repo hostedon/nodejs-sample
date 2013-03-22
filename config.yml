@@ -1,0 +1,7 @@
+version: 0.4
+type: web
+stack: nodejs-stack
+environment:
+    key1: value1
+    key2: 2
+cmd: node server.js
