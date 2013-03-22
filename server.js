@@ -1,6 +1,6 @@
 fs = require('fs')
 
-fs.readFile('/root/environment.json', 'utf8', function (err,data) {
+fs.readFile('/var/run/environment.json', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
